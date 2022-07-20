@@ -18,6 +18,6 @@ namespace Discount.API
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                });       
     }
 }
