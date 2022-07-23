@@ -1,25 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1F5224D6-6B94-44AD-8465-EA24BA98510D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{DBA30ED3-69C4-4A20-B1B6-0266BC71DE73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{D7955D52-55D9-42D6-8E67-71E41872FEA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{D7955D52-55D9-42D6-8E67-71E41872FEA3}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{095537EA-F3C8-46AD-B797-18B3F5EF41B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{B887C031-53F0-4E88-A6D9-BDEC124A3148}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{FF8C9425-778B-49C5-8FBD-8BA6ED33B98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{FF8C9425-778B-49C5-8FBD-8BA6ED33B98C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{DF02B034-E021-4962-B032-D651615D832A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{964387FE-D60E-4EEF-9D42-CD7638CB8F75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{964387FE-D60E-4EEF-9D42-CD7638CB8F75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{6F7EAF45-649F-44EE-85F9-73A4CE5FCE96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{6F7EAF45-649F-44EE-85F9-73A4CE5FCE96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{15CD1FB0-95E8-4E07-9D4C-7F88705A7B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{91A1331C-9863-4390-8219-3967BC1B6899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{6F7EAF45-649F-44EE-85F9-73A4CE5FCE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7EAF45-649F-44EE-85F9-73A4CE5FCE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7EAF45-649F-44EE-85F9-73A4CE5FCE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A1331C-9863-4390-8219-3967BC1B6899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A1331C-9863-4390-8219-3967BC1B6899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A1331C-9863-4390-8219-3967BC1B6899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A1331C-9863-4390-8219-3967BC1B6899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{DF02B034-E021-4962-B032-D651615D832A} = {1F5224D6-6B94-44AD-8465-EA24BA98510D}
 		{964387FE-D60E-4EEF-9D42-CD7638CB8F75} = {DF02B034-E021-4962-B032-D651615D832A}
 		{6F7EAF45-649F-44EE-85F9-73A4CE5FCE96} = {DF02B034-E021-4962-B032-D651615D832A}
+		{15CD1FB0-95E8-4E07-9D4C-7F88705A7B50} = {1F5224D6-6B94-44AD-8465-EA24BA98510D}
+		{91A1331C-9863-4390-8219-3967BC1B6899} = {15CD1FB0-95E8-4E07-9D4C-7F88705A7B50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4F54B72-578B-4FCF-B56F-E473EFF1C424}
