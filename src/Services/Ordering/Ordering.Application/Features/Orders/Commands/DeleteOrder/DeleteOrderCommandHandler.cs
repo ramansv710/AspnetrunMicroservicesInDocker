@@ -4,7 +4,6 @@ using Microsoft.Extensions.Logging;
 using Ordering.Application.Contracts.Infrastructure;
 using Ordering.Application.Contracts.Persistence;
 using Ordering.Application.Exceptions;
-using Ordering.Application.Features.Orders.Commands.Delete;
 using Ordering.Application.Models;
 using Ordering.Domain.Entities;
 using System;
