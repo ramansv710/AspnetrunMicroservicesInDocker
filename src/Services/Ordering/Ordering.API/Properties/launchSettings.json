@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:47739",
+      "applicationUrl": "http://localhost:38185",
       "sslPort": 0
     }
   },
