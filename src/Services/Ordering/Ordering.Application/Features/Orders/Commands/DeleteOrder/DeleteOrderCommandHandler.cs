@@ -39,7 +39,7 @@ namespace Ordering.Application.Features.Orders.Commands.DeleteOrder
 
             _logger.LogInformation($"Order {orderToDelete.Id} is successfully created.");
 
-            await SendMail(orderToDelete);
+            //await SendMail(orderToDelete);
 
             return Unit.Value;
         }

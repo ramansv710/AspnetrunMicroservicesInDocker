@@ -59,7 +59,7 @@ services:
     depends_on:
       -  catalogdb
     ports:
-      -  "8000:80"
+      -  "8004:80"
 
   basket.api:
     container_name:  basket.api

@@ -40,7 +40,7 @@ namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
 
             _logger.LogInformation($"Order {orderToUpdate.Id} is successfully created.");
 
-            await SendMail(orderToUpdate);
+           // await SendMail(orderToUpdate);
 
             return Unit.Value;
         }
