@@ -52,7 +52,7 @@ namespace Ordering.Application.Features.Orders.Commands.DeleteOrder
             {
                 await _emailService.SendEmail(email);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 _logger.LogError($"Order {order.Id} failed due to en error with the email service.");
             }
