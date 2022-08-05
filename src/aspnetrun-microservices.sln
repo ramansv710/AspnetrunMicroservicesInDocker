@@ -43,7 +43,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiG
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{3039DC10-27C7-4CB0-9231-5F90871FFE5B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetRunBasics", "..\..\..\..\..\Downloads\run-aspnetcore-basics-master\run-aspnetcore-basics-master\AspnetRunBasics\AspnetRunBasics.csproj", "{DF268D71-429C-4C2E-8051-6F22B1080BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetRunBasics", "WebApps\AspnetRunBasics\AspnetRunBasics.csproj", "{830CED34-5CE5-4041-BB10-5F986B5B5A0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,10 +99,10 @@ Global
 		{AF876C6E-FC66-47D8-97B6-E72BB58E9AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF876C6E-FC66-47D8-97B6-E72BB58E9AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF876C6E-FC66-47D8-97B6-E72BB58E9AAA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF268D71-429C-4C2E-8051-6F22B1080BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF268D71-429C-4C2E-8051-6F22B1080BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF268D71-429C-4C2E-8051-6F22B1080BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF268D71-429C-4C2E-8051-6F22B1080BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830CED34-5CE5-4041-BB10-5F986B5B5A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830CED34-5CE5-4041-BB10-5F986B5B5A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830CED34-5CE5-4041-BB10-5F986B5B5A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830CED34-5CE5-4041-BB10-5F986B5B5A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,7 +123,7 @@ Global
 		{C25C05BD-1552-4906-82B4-9AE993B76E01} = {084829EB-81A5-4A71-B2B0-840CC7CEE116}
 		{065EC8D6-1A5F-4BEF-83C1-4FB355AFD582} = {3CFEA614-ACD7-489F-AAC8-5349762BD166}
 		{AF876C6E-FC66-47D8-97B6-E72BB58E9AAA} = {3CFEA614-ACD7-489F-AAC8-5349762BD166}
-		{DF268D71-429C-4C2E-8051-6F22B1080BC3} = {3039DC10-27C7-4CB0-9231-5F90871FFE5B}
+		{830CED34-5CE5-4041-BB10-5F986B5B5A0E} = {3039DC10-27C7-4CB0-9231-5F90871FFE5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4F54B72-578B-4FCF-B56F-E473EFF1C424}
