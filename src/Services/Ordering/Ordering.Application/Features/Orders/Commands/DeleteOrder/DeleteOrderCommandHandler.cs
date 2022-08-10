@@ -34,7 +34,7 @@ namespace Ordering.Application.Features.Orders.Commands.DeleteOrder
             {
                 throw new NotFoundException(nameof(Order), request.Id);
             }
-
+            
             await _orderRepository.DeleteAsync(orderToDelete);
 
             _logger.LogInformation($"Order {orderToDelete.Id} is successfully created.");
